@@ -21,6 +21,9 @@
         <!-- Registramos el servicio (solo para esta aplicacion) -->
         <service android:name=".Service.NotificationManagerService"
             android:exported="false"/>
+        <!-- Registramos el intentservice -->
+        <service android:name=".Service.NotificationManagerIntentService"
+            android:exported="false"/>
 
     </application>
 

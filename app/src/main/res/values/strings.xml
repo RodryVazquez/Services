@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ServiceApplication</string>
+    <string name="download_title">Download in progress</string>
+    <string name="notification_title">Image Download</string>
 </resources>

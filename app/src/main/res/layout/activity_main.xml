@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Start Service"
             android:textColor="#fafafa"
@@ -43,5 +43,15 @@
             android:textColor="#fafafa"
             android:background="@color/colorPrimary"/>
 
+        <Button
+            android:id="@+id/btnStartIntentService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Start IntentService"
+            android:textColor="#fafafa"
+            android:background="@color/colorPrimary"/>
 
 </LinearLayout>
